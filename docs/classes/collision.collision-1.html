@@ -1,0 +1,892 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Collision | GS-HTML5 API</title>
+	<meta name="description" content="Documentation for GS-HTML5 API">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+	<script async src="../assets/js/search.js" id="search-script"></script>
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.json" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">GS-HTML5 API</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../modules.html">GS-HTML5 API</a>
+				</li>
+				<li>
+					<a href="../modules/collision.html">Collision</a>
+				</li>
+				<li>
+					<a href="collision.collision-1.html">Collision</a>
+				</li>
+			</ul>
+			<h1>Class Collision</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>This class manages collision between the main concepts of the engine:
+						map, hero, npcs and interactable objects.</p>
+					</div>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">Collision</span>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Constructors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-constructor tsd-parent-kind-class"><a href="collision.collision-1.html#constructor" class="tsd-kind-icon">constructor</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section tsd-is-private tsd-is-private-protected">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="collision.collision-1.html#_dynamic_events_collision_group" class="tsd-kind-icon">_dynamic_<wbr>events_<wbr>collision_<wbr>group</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="collision.collision-1.html#_hero_collision_group" class="tsd-kind-icon">_hero_<wbr>collision_<wbr>group</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="collision.collision-1.html#_interactable_objs_collision_groups" class="tsd-kind-icon">_interactable_<wbr>objs_<wbr>collision_<wbr>groups</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="collision.collision-1.html#_map_collision_group" class="tsd-kind-icon">_map_<wbr>collision_<wbr>group</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="collision.collision-1.html#_npc_collision_groups" class="tsd-kind-icon">_npc_<wbr>collision_<wbr>groups</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="collision.collision-1.html#data" class="tsd-kind-icon">data</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="collision.collision-1.html#game" class="tsd-kind-icon">game</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="collision.collision-1.html#max_layers_created" class="tsd-kind-icon">max_<wbr>layers_<wbr>created</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-static"><a href="collision.collision-1.html#minimal_slope" class="tsd-kind-icon">MINIMAL_<wbr>SLOPE</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-static"><a href="collision.collision-1.html#rotation_normal" class="tsd-kind-icon">ROTATION_<wbr>NORMAL</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-static"><a href="collision.collision-1.html#speed_limit_to_stop" class="tsd-kind-icon">SPEED_<wbr>LIMIT_<wbr>TO_<wbr>STOP</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-static"><a href="collision.collision-1.html#speed_limit_to_stop_world_map" class="tsd-kind-icon">SPEED_<wbr>LIMIT_<wbr>TO_<wbr>STOP_<wbr>WORLD_<wbr>MAP</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Accessors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="collision.collision-1.html#dynamic_events_collision_group" class="tsd-kind-icon">dynamic_<wbr>events_<wbr>collision_<wbr>group</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="collision.collision-1.html#hero_collision_group" class="tsd-kind-icon">hero_<wbr>collision_<wbr>group</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="collision.collision-1.html#interactable_objs_collision_groups" class="tsd-kind-icon">interactable_<wbr>objs_<wbr>collision_<wbr>groups</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="collision.collision-1.html#map_collision_group" class="tsd-kind-icon">map_<wbr>collision_<wbr>group</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class"><a href="collision.collision-1.html#npc_collision_groups" class="tsd-kind-icon">npc_<wbr>collision_<wbr>groups</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="collision.collision-1.html#change_map_body" class="tsd-kind-icon">change_<wbr>map_<wbr>body</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="collision.collision-1.html#check_char_collision" class="tsd-kind-icon">check_<wbr>char_<wbr>collision</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="collision.collision-1.html#config_collision_groups" class="tsd-kind-icon">config_<wbr>collision_<wbr>groups</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="collision.collision-1.html#config_collisions" class="tsd-kind-icon">config_<wbr>collisions</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="collision.collision-1.html#config_world" class="tsd-kind-icon">config_<wbr>world</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="collision.collision-1.html#disable_map_collision" class="tsd-kind-icon">disable_<wbr>map_<wbr>collision</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="collision.collision-1.html#disable_npc_collision" class="tsd-kind-icon">disable_<wbr>npc_<wbr>collision</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="collision.collision-1.html#enable_map_collision" class="tsd-kind-icon">enable_<wbr>map_<wbr>collision</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="collision.collision-1.html#enable_npc_collision" class="tsd-kind-icon">enable_<wbr>npc_<wbr>collision</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><a href="collision.collision-1.html#get_polygon_tile_intersection" class="tsd-kind-icon">get_<wbr>polygon_<wbr>tile_<wbr>intersection</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Constructors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class">
+					<a name="constructor" class="tsd-anchor"></a>
+					<h3>constructor</h3>
+					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Collision<span class="tsd-signature-symbol">(</span>game<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Game</span>, data<span class="tsd-signature-symbol">: </span><a href="goldensun.goldensun-1.html" class="tsd-signature-type" data-tsd-kind="Class">GoldenSun</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="collision.collision-1.html" class="tsd-signature-type" data-tsd-kind="Class">Collision</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/jjppof/goldensun_html5/blob/0f2f820/base/Collision.ts#L41">Collision.ts:41</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>game: <span class="tsd-signature-type">Game</span></h5>
+								</li>
+								<li>
+									<h5>data: <a href="goldensun.goldensun-1.html" class="tsd-signature-type" data-tsd-kind="Class">GoldenSun</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="collision.collision-1.html" class="tsd-signature-type" data-tsd-kind="Class">Collision</a></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group tsd-is-private tsd-is-private-protected">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_dynamic_events_collision_group" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _dynamic_<wbr>events_<wbr>collision_<wbr>group</h3>
+					<div class="tsd-signature tsd-kind-icon">_dynamic_<wbr>events_<wbr>collision_<wbr>group<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">CollisionGroup</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/jjppof/goldensun_html5/blob/0f2f820/base/Collision.ts#L37">Collision.ts:37</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_hero_collision_group" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _hero_<wbr>collision_<wbr>group</h3>
+					<div class="tsd-signature tsd-kind-icon">_hero_<wbr>collision_<wbr>group<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">CollisionGroup</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/jjppof/goldensun_html5/blob/0f2f820/base/Collision.ts#L36">Collision.ts:36</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_interactable_objs_collision_groups" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _interactable_<wbr>objs_<wbr>collision_<wbr>groups</h3>
+					<div class="tsd-signature tsd-kind-icon">_interactable_<wbr>objs_<wbr>collision_<wbr>groups<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{}</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/jjppof/goldensun_html5/blob/0f2f820/base/Collision.ts#L40">Collision.ts:40</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter-index-signature">
+								<h5><span class="tsd-signature-symbol">[</span>layer_index: <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">]: </span><span class="tsd-signature-type">Phaser.Physics.P2.CollisionGroup</span></h5>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_map_collision_group" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _map_<wbr>collision_<wbr>group</h3>
+					<div class="tsd-signature tsd-kind-icon">_map_<wbr>collision_<wbr>group<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">CollisionGroup</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/jjppof/goldensun_html5/blob/0f2f820/base/Collision.ts#L38">Collision.ts:38</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="_npc_collision_groups" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> _npc_<wbr>collision_<wbr>groups</h3>
+					<div class="tsd-signature tsd-kind-icon">_npc_<wbr>collision_<wbr>groups<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">{}</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/jjppof/goldensun_html5/blob/0f2f820/base/Collision.ts#L39">Collision.ts:39</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter-index-signature">
+								<h5><span class="tsd-signature-symbol">[</span>layer_index: <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">]: </span><span class="tsd-signature-type">Phaser.Physics.P2.CollisionGroup</span></h5>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="data" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> data</h3>
+					<div class="tsd-signature tsd-kind-icon">data<span class="tsd-signature-symbol">:</span> <a href="goldensun.goldensun-1.html" class="tsd-signature-type" data-tsd-kind="Class">GoldenSun</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/jjppof/goldensun_html5/blob/0f2f820/base/Collision.ts#L35">Collision.ts:35</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="game" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> game</h3>
+					<div class="tsd-signature tsd-kind-icon">game<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Game</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/jjppof/goldensun_html5/blob/0f2f820/base/Collision.ts#L34">Collision.ts:34</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="max_layers_created" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> max_<wbr>layers_<wbr>created</h3>
+					<div class="tsd-signature tsd-kind-icon">max_<wbr>layers_<wbr>created<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/jjppof/goldensun_html5/blob/0f2f820/base/Collision.ts#L41">Collision.ts:41</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-static">
+					<a name="minimal_slope" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> <span class="tsd-flag ts-flagPrivate">Private</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> MINIMAL_<wbr>SLOPE</h3>
+					<div class="tsd-signature tsd-kind-icon">MINIMAL_<wbr>SLOPE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">0.1</span><span class="tsd-signature-symbol"> = 0.1</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/jjppof/goldensun_html5/blob/0f2f820/base/Collision.ts#L16">Collision.ts:16</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-static">
+					<a name="rotation_normal" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> <span class="tsd-flag ts-flagPrivate">Private</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> ROTATION_<wbr>NORMAL</h3>
+					<div class="tsd-signature tsd-kind-icon">ROTATION_<wbr>NORMAL<span class="tsd-signature-symbol">:</span> <a href="../enums/utils.directions.html" class="tsd-signature-type" data-tsd-kind="Enumeration">directions</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> = ...</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/jjppof/goldensun_html5/blob/0f2f820/base/Collision.ts#L19">Collision.ts:19</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>This variable converts from normal_angle region (floor((angle-15)/30)) to in-game rotation.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-static">
+					<a name="speed_limit_to_stop" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> <span class="tsd-flag ts-flagPrivate">Private</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> SPEED_<wbr>LIMIT_<wbr>TO_<wbr>STOP</h3>
+					<div class="tsd-signature tsd-kind-icon">SPEED_<wbr>LIMIT_<wbr>TO_<wbr>STOP<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">13</span><span class="tsd-signature-symbol"> = 13</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/jjppof/goldensun_html5/blob/0f2f820/base/Collision.ts#L14">Collision.ts:14</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-static">
+					<a name="speed_limit_to_stop_world_map" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> <span class="tsd-flag ts-flagPrivate">Private</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> SPEED_<wbr>LIMIT_<wbr>TO_<wbr>STOP_<wbr>WORLD_<wbr>MAP</h3>
+					<div class="tsd-signature tsd-kind-icon">SPEED_<wbr>LIMIT_<wbr>TO_<wbr>STOP_<wbr>WORLD_<wbr>MAP<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">9</span><span class="tsd-signature-symbol"> = 9</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/jjppof/goldensun_html5/blob/0f2f820/base/Collision.ts#L15">Collision.ts:15</a></li>
+						</ul>
+					</aside>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Accessors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+					<a name="dynamic_events_collision_group" class="tsd-anchor"></a>
+					<h3>dynamic_<wbr>events_<wbr>collision_<wbr>group</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> dynamic_events_collision_group<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">CollisionGroup</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/jjppof/goldensun_html5/blob/0f2f820/base/Collision.ts#L58">Collision.ts:58</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">CollisionGroup</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+					<a name="hero_collision_group" class="tsd-anchor"></a>
+					<h3>hero_<wbr>collision_<wbr>group</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> hero_collision_group<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">CollisionGroup</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/jjppof/goldensun_html5/blob/0f2f820/base/Collision.ts#L55">Collision.ts:55</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">CollisionGroup</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+					<a name="interactable_objs_collision_groups" class="tsd-anchor"></a>
+					<h3>interactable_<wbr>objs_<wbr>collision_<wbr>groups</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> interactable_objs_collision_groups<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">{}</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/jjppof/goldensun_html5/blob/0f2f820/base/Collision.ts#L67">Collision.ts:67</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-symbol">{}</span></h4>
+							<ul class="tsd-parameters">
+								<li class="tsd-parameter-index-signature">
+									<h5><span class="tsd-signature-symbol">[</span>layer_index: <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">]: </span><span class="tsd-signature-type">Phaser.Physics.P2.CollisionGroup</span></h5>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+					<a name="map_collision_group" class="tsd-anchor"></a>
+					<h3>map_<wbr>collision_<wbr>group</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> map_collision_group<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">CollisionGroup</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/jjppof/goldensun_html5/blob/0f2f820/base/Collision.ts#L61">Collision.ts:61</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">CollisionGroup</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class">
+					<a name="npc_collision_groups" class="tsd-anchor"></a>
+					<h3>npc_<wbr>collision_<wbr>groups</h3>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> npc_collision_groups<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">{}</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/jjppof/goldensun_html5/blob/0f2f820/base/Collision.ts#L64">Collision.ts:64</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-symbol">{}</span></h4>
+							<ul class="tsd-parameters">
+								<li class="tsd-parameter-index-signature">
+									<h5><span class="tsd-signature-symbol">[</span>layer_index: <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">]: </span><span class="tsd-signature-type">Phaser.Physics.P2.CollisionGroup</span></h5>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="change_map_body" class="tsd-anchor"></a>
+					<h3>change_<wbr>map_<wbr>body</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">change_<wbr>map_<wbr>body<span class="tsd-signature-symbol">(</span>new_collision_layer_index<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/jjppof/goldensun_html5/blob/0f2f820/base/Collision.ts#L186">Collision.ts:186</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Changes the map body according to a given collision layer index.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>new_collision_layer_index: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Target collision layer.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="check_char_collision" class="tsd-anchor"></a>
+					<h3>check_<wbr>char_<wbr>collision</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">check_<wbr>char_<wbr>collision<span class="tsd-signature-symbol">(</span>char<span class="tsd-signature-symbol">: </span><a href="controllablechar.controllablechar-1.html" class="tsd-signature-type" data-tsd-kind="Class">ControllableChar</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/jjppof/goldensun_html5/blob/0f2f820/base/Collision.ts#L202">Collision.ts:202</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Checks everything related to char collision. This function checks whether is necessary
+										to stop when colliding or change the char direction in order to adapt its movement to the
+									collision slope.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>char: <a href="controllablechar.controllablechar-1.html" class="tsd-signature-type" data-tsd-kind="Class">ControllableChar</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="config_collision_groups" class="tsd-anchor"></a>
+					<h3>config_<wbr>collision_<wbr>groups</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">config_<wbr>collision_<wbr>groups<span class="tsd-signature-symbol">(</span>map<span class="tsd-signature-symbol">: </span><a href="map.map-1.html" class="tsd-signature-type" data-tsd-kind="Class">Map</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/jjppof/goldensun_html5/blob/0f2f820/base/Collision.ts#L89">Collision.ts:89</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Creates npcs and interactable objects collision groups.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>map: <a href="map.map-1.html" class="tsd-signature-type" data-tsd-kind="Class">Map</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>the current map.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="config_collisions" class="tsd-anchor"></a>
+					<h3>config_<wbr>collisions</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">config_<wbr>collisions<span class="tsd-signature-symbol">(</span>collision_layer<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/jjppof/goldensun_html5/blob/0f2f820/base/Collision.ts#L156">Collision.ts:156</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Configs collisions between hero, map, npcs and interactable objects.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>collision_layer: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>the current collision layer.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="config_world" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> config_<wbr>world</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">config_<wbr>world<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/jjppof/goldensun_html5/blob/0f2f820/base/Collision.ts#L74">Collision.ts:74</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Configs the world physics attributes.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="disable_map_collision" class="tsd-anchor"></a>
+					<h3>disable_<wbr>map_<wbr>collision</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">disable_<wbr>map_<wbr>collision<span class="tsd-signature-symbol">(</span>sensor_method<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/jjppof/goldensun_html5/blob/0f2f820/base/Collision.ts#L130">Collision.ts:130</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Disables collision between hero and map.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>sensor_method: <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> = false</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>if true, disables collision by only setting the map shapes as a sensor.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="disable_npc_collision" class="tsd-anchor"></a>
+					<h3>disable_<wbr>npc_<wbr>collision</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">disable_<wbr>npc_<wbr>collision<span class="tsd-signature-symbol">(</span>collision_layer<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/jjppof/goldensun_html5/blob/0f2f820/base/Collision.ts#L102">Collision.ts:102</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Disables collision between hero and npcs.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> collision_layer: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>if given, disables only on this layer.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="enable_map_collision" class="tsd-anchor"></a>
+					<h3>enable_<wbr>map_<wbr>collision</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">enable_<wbr>map_<wbr>collision<span class="tsd-signature-symbol">(</span>sensor_method<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/jjppof/goldensun_html5/blob/0f2f820/base/Collision.ts#L143">Collision.ts:143</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Enables collision between hero and map.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>sensor_method: <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> = false</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>if true, enables collision by only setting the map shapes as not a sensor.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="enable_npc_collision" class="tsd-anchor"></a>
+					<h3>enable_<wbr>npc_<wbr>collision</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">enable_<wbr>npc_<wbr>collision<span class="tsd-signature-symbol">(</span>collision_layer<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/jjppof/goldensun_html5/blob/0f2f820/base/Collision.ts#L116">Collision.ts:116</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Enables collision between hero and npcs.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> collision_layer: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>if given, enables only on this layer.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-static">
+					<a name="get_polygon_tile_intersection" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> get_<wbr>polygon_<wbr>tile_<wbr>intersection</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-static">
+						<li class="tsd-signature tsd-kind-icon">get_<wbr>polygon_<wbr>tile_<wbr>intersection<span class="tsd-signature-symbol">(</span>map<span class="tsd-signature-symbol">: </span><a href="map.map-1.html" class="tsd-signature-type" data-tsd-kind="Class">Map</a>, min_x<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, max_x<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, min_y<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, max_y<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, polygon<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/jjppof/goldensun_html5/blob/0f2f820/base/Collision.ts#L305">Collision.ts:305</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Given a surface range, loop over the tiles in this range and find the intersection polygons for each tile.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>map: <a href="map.map-1.html" class="tsd-signature-type" data-tsd-kind="Class">Map</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>the current map object.</p>
+									</div>
+								</li>
+								<li>
+									<h5>min_x: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>the min x range in px.</p>
+									</div>
+								</li>
+								<li>
+									<h5>max_x: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>the max x range in px.</p>
+									</div>
+								</li>
+								<li>
+									<h5>min_y: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>the min y range in px.</p>
+									</div>
+								</li>
+								<li>
+									<h5>max_y: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>the max y range in px.</p>
+									</div>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> polygon: <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">[]</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The polygon. The first and last positions are equivalent, and they MUST contain identical values.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Map</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<p>Returns a JS Map where its key is a location key and its value is the list of polygons for this location key.</p>
+						</li>
+					</ul>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class=" ">
+						<a href="../modules.html">Modules</a>
+					</li>
+					<li class="current tsd-kind-module">
+						<a href="../modules/collision.html">Collision</a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-class tsd-parent-kind-module">
+						<a href="collision.collision-1.html" class="tsd-kind-icon">Collision</a>
+						<ul>
+							<li class=" tsd-kind-constructor tsd-parent-kind-class">
+								<a href="collision.collision-1.html#constructor" class="tsd-kind-icon">constructor</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="collision.collision-1.html#_dynamic_events_collision_group" class="tsd-kind-icon">_dynamic_<wbr>events_<wbr>collision_<wbr>group</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="collision.collision-1.html#_hero_collision_group" class="tsd-kind-icon">_hero_<wbr>collision_<wbr>group</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="collision.collision-1.html#_interactable_objs_collision_groups" class="tsd-kind-icon">_interactable_<wbr>objs_<wbr>collision_<wbr>groups</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="collision.collision-1.html#_map_collision_group" class="tsd-kind-icon">_map_<wbr>collision_<wbr>group</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="collision.collision-1.html#_npc_collision_groups" class="tsd-kind-icon">_npc_<wbr>collision_<wbr>groups</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="collision.collision-1.html#data" class="tsd-kind-icon">data</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="collision.collision-1.html#game" class="tsd-kind-icon">game</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="collision.collision-1.html#max_layers_created" class="tsd-kind-icon">max_<wbr>layers_<wbr>created</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-static">
+								<a href="collision.collision-1.html#minimal_slope" class="tsd-kind-icon">MINIMAL_<wbr>SLOPE</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-static">
+								<a href="collision.collision-1.html#rotation_normal" class="tsd-kind-icon">ROTATION_<wbr>NORMAL</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-static">
+								<a href="collision.collision-1.html#speed_limit_to_stop" class="tsd-kind-icon">SPEED_<wbr>LIMIT_<wbr>TO_<wbr>STOP</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-static">
+								<a href="collision.collision-1.html#speed_limit_to_stop_world_map" class="tsd-kind-icon">SPEED_<wbr>LIMIT_<wbr>TO_<wbr>STOP_<wbr>WORLD_<wbr>MAP</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
+								<a href="collision.collision-1.html#dynamic_events_collision_group" class="tsd-kind-icon">dynamic_<wbr>events_<wbr>collision_<wbr>group</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
+								<a href="collision.collision-1.html#hero_collision_group" class="tsd-kind-icon">hero_<wbr>collision_<wbr>group</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
+								<a href="collision.collision-1.html#interactable_objs_collision_groups" class="tsd-kind-icon">interactable_<wbr>objs_<wbr>collision_<wbr>groups</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
+								<a href="collision.collision-1.html#map_collision_group" class="tsd-kind-icon">map_<wbr>collision_<wbr>group</a>
+							</li>
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class">
+								<a href="collision.collision-1.html#npc_collision_groups" class="tsd-kind-icon">npc_<wbr>collision_<wbr>groups</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="collision.collision-1.html#change_map_body" class="tsd-kind-icon">change_<wbr>map_<wbr>body</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="collision.collision-1.html#check_char_collision" class="tsd-kind-icon">check_<wbr>char_<wbr>collision</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="collision.collision-1.html#config_collision_groups" class="tsd-kind-icon">config_<wbr>collision_<wbr>groups</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="collision.collision-1.html#config_collisions" class="tsd-kind-icon">config_<wbr>collisions</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="collision.collision-1.html#config_world" class="tsd-kind-icon">config_<wbr>world</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="collision.collision-1.html#disable_map_collision" class="tsd-kind-icon">disable_<wbr>map_<wbr>collision</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="collision.collision-1.html#disable_npc_collision" class="tsd-kind-icon">disable_<wbr>npc_<wbr>collision</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="collision.collision-1.html#enable_map_collision" class="tsd-kind-icon">enable_<wbr>map_<wbr>collision</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="collision.collision-1.html#enable_npc_collision" class="tsd-kind-icon">enable_<wbr>npc_<wbr>collision</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-static">
+								<a href="collision.collision-1.html#get_polygon_tile_intersection" class="tsd-kind-icon">get_<wbr>polygon_<wbr>tile_<wbr>intersection</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
